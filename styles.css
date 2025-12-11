@@ -1,0 +1,148 @@
+#navimage{
+    width: 75px;
+    height: 75px;
+}
+
+.nav-link{
+    color: white;
+}
+
+main{
+    background-image: url(images/concertimage.jpg);
+    color: white;
+    background-color: blackS;
+}
+
+#homepagelogo{
+    display: block;
+    margin: auto;
+    }
+
+#signupform {
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+#days{
+    padding: 10px;
+}
+
+footer{
+    background-color: black;
+}
+
+.dateimg{
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+
+
+}
+
+.icon-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+
+
+footer{
+    background-color: black;
+}
+
+#lineupbtn{
+    transition: transform .2s;
+}
+
+#lineupbtn:hover{
+    transform: scale(1.5);
+}
+
+.btncont{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+@media (max-width: 600px) {
+    
+    .icon-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    }
+
+    .dateimg{
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+
+
+}
+}
+
+@media (max-width: 1024px) {
+    
+    .icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    }
+
+    .dateimg{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+
+
+}
+
+
+}
+
+
+.row{
+    padding: 100px;
+
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+#carouselsection{
+    width: 500px;
+    height: 1000px;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    margin: auto;
+}
+
+.carimg{
+    width: 500px;
+    height: 1000pxs;
+}
+
+
